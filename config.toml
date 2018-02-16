@@ -35,11 +35,11 @@ keywords = "blog,developer,golang,php"
 ## Social Accounts
 [params.social]
 github = "henriqueholanda"
-# instagram = "<username>"
+instagram = "henrique_holanda"
 # xing = "<username>"
 linkedin = "henrique-holanda"
 twitter = "henriqueholanda"
-# facebook = "zeckholanda"
+facebook = "hklone01"
 # google = "<username>"
 # stackoverflow = "<username>"
 email = "contato@henriqueholanda.com.br"
