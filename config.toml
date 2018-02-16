@@ -1,0 +1,58 @@
+## Basic Configuration
+
+baseurl = "http://henriqueholanda.com.br/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Henrique Holanda"
+title = "Henrique Holanda"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "UA-114302825-1"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Henrique Holanda"
+intro = "Desenvolvedor"
+description = "..."
+authorimage = "me.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Henrique Holanda"
+keywords = "blog,developer,golang,php"
+
+## Social Accounts
+[params.social]
+github = "henriqueholanda"
+# instagram = "<username>"
+# xing = "<username>"
+linkedin = "henrique-holanda"
+twitter = "henriqueholanda"
+# facebook = "zeckholanda"
+# google = "<username>"
+# stackoverflow = "<username>"
+email = "contato@henriqueholanda.com.br"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Henrique Holanda." 
+poweredby = false
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "em construção"
+    identifier = "about"
+    weight = 200
+    url = "#"
