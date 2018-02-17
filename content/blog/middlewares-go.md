@@ -2,6 +2,7 @@
 title: "Middlewares em Go"
 date: 2018-02-17T17:29:20-02:00
 draft: false
+comments: true
 ---
 
 Quando criamos aplicações web em Go, o primeiro code smell que nos deparamos é a duplicidade de código. Sempre precisamos realizar algumas tarefas em cada endpoint como gravar um log, autenticar usuário, iniciar uma transação no NewRelic, etc.
