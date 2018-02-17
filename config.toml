@@ -52,7 +52,7 @@ highlightjs = true
 
 ## Main Menu
 [[menu.main]]
-    name = "em construção"
-    identifier = "about"
-    weight = 200
-    url = "#"
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
