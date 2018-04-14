@@ -1,7 +1,7 @@
 ---
 title: "Refactoring PHP - Introduce Null Object"
 date: 2018-04-14T19:00:00-02:00
-draft: true
+draft: false
 comments: false
 ---
 
