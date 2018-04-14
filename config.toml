@@ -26,6 +26,7 @@ intro = "Desenvolvedor"
 description = "..."
 authorimage = "me.jpg"
 dateformat = "Jan 2, 2006"
+preview = true
 
 ## Site Meta Settings
 [params.meta]
