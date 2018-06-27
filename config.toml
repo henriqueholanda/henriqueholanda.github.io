@@ -1,58 +1,281 @@
-## Basic Configuration
+# Page settings
 
-baseurl = "/" 
-builddrafts = false
-canonifyurls = false
-languageCode = "en-US"
-
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-
-author = "Henrique Holanda"
+baseurl = "/"
+languageCode = "en-us"
 title = "Henrique Holanda"
-
-theme = "hugo-goa"
-
-## Hugo Built-in Features
-disqusShortname = "henriqueholanda" # Comment out to disable Disqus.
+theme = "hugo-orbit-theme"
 googleAnalytics = "UA-114302825-1"
-enableRobotsTXT = true
 
-## Site Settings
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
 [params]
-author = "Henrique Holanda"
-intro = "Desenvolvedor"
-description = "..."
-authorimage = "me.jpg"
-dateformat = "Jan 2, 2006"
 
-## Site Meta Settings
-[params.meta]
-description = "Henrique Holanda"
-keywords = "blog,developer,golang,php"
+# Meta
+    description = "Henrique Holanda Responsive Resume/CV"
+    author = "Henrique Holanda"
 
-## Social Accounts
-[params.social]
-github = "henriqueholanda"
-instagram = "henrique_holanda"
-# xing = "<username>"
-linkedin = "henrique-holanda"
-twitter = "henriqueholanda"
-facebook = "hklone01"
-# google = "<username>"
-# stackoverflow = "<username>"
-email = "contato@henriqueholanda.com.br"
+# Theme styles
 
-## Extras
-[params.extra]
-copyright = "© 2018. Henrique Holanda." 
-poweredby = false
-highlightjs = true
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
 
-## Main Menu
-[[menu.main]]
-    name = "blog"
-    weight = 100
-    identifier = "blog"
-    url = "/blog/"
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Henrique Holanda"
+        tagline = "Backend Developer"
+        avatar = "me.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: contato@henriqueholanda.com.br"
+        title = "contato@henriqueholanda.com.br"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+5511958971667"
+        title = "+55 11 95897-1667"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-medium"
+        url = "https://medium.com/@henriqueholanda"
+        title = "medium.com/@henriqueholanda"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "https://www.linkedin.com/in/henrique-holanda/"
+        title = "linkedin.com/in/henrique-holanda"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/henriqueholanda"
+        title = "github.com/henriqueholanda"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/henriqueholanda"
+        title = "@henriqueholanda"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "System Analysis and Development"
+        college = "Unifieo"
+        dates = "2008 - 2011"
+
+        [[params.education.list]]
+        degree = "Frontend Formation"
+        college = "4Linux"
+        dates = "02/2016 - 10/2016"
+
+        [[params.education.list]]
+        degree = "Linux Formation"
+        college = "4Linux"
+        dates = "06/2015 - 10/2015"
+
+        [[params.education.list]]
+        degree = "Computer Technician"
+        college = "Senac"
+        dates = "06/2007 - 12/2007"
+
+        [[params.education.list]]
+        degree = "Scrum Foundations"
+        college = "Caelum"
+        dates = "8hs"
+
+        [[params.education.list]]
+        degree = "API Foundations"
+        college = "Sensedia"
+        dates = "8hs"
+
+        [[params.education.list]]
+        degree = "Docker"
+        college = "Novatec"
+        dates = "8hs"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Portuguese"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Intermediate"
+
+    # Interests section
+    [params.interests]
+        enable = false
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Climbing"
+
+        [[params.interests.list]]
+        interest = "Snowboarding"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = false
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "I am a backend developer about 10 years. My speciality is PHP, but I work with a lot of languages. I worked in different kind of companies, and this gave me much experience."
+
+    # Experiences section
+    [params.experiences]
+        enable = false
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2017 - Present"
+        company = "Easy Taxi, São Paulo - Brazil"
+        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2016 - 2017"
+        company = "Celebryts, São Paulo - Brazil"
+        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2016 - 2016"
+        company = "Longevo, São Paulo - Brazil"
+        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2013 - 2016"
+        company = "Catho, Barueri - Brazil"
+        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2012 - 2013"
+        company = "Duetec, Barueri - Brazil"
+        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2011 - 2012"
+        company = "Titan Software, Barueri - Brazil"
+        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2011 - 2011"
+        company = "Waves Info, Osasco - Brazil"
+        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+        [[params.jobs.list]]
+        position = "Trainee Developer"
+        dates = "2010 - 2011"
+        company = "Somar Meteorologia, São Paulo - Brazil"
+        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+
+    # Projects section
+    [params.projects]
+        enable = false
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = false
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python & Django"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "Javascript & jQuery"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Angular"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Sketch & Photoshop"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Henrique Holanda"
