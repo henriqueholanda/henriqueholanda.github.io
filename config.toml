@@ -147,10 +147,18 @@ disable404 = true
 
     # Summary section
     [params.summary]
-        enable = false
+        enable = true
         icon = "fa-user"
-        title = "Career Profile"
-        summary = "I am a backend developer about 10 years. My speciality is PHP, but I work with a lot of languages. I worked in different kind of companies, and this gave me much experience."
+        title = "Under Construction"
+        summary = "Sorry, but I don't finished yet. If you want, please contact me. Thanks :)"
+
+
+    # Summary section
+    #[params.summary]
+    #    enable = false
+    #    icon = "fa-user"
+    #    title = "Career Profile"
+    #    summary = "I am a backend developer about 10 years. My speciality is PHP, but I work with a lot of languages. I worked in different kind of companies, and this gave me much experience."
 
     # Experiences section
     [params.experiences]
