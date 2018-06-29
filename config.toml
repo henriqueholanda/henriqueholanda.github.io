@@ -146,24 +146,16 @@ disable404 = true
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
 
-    # Summary section
+    #Summary section
     [params.summary]
-        enable = true
+        enable = false
         icon = "fa-user"
-        title = "Under Construction"
-        summary = "Sorry, but I don't finished yet. If you want, please contact me. Thanks :)"
-
-
-    # Summary section
-    #[params.summary]
-    #    enable = false
-    #    icon = "fa-user"
-    #    title = "Career Profile"
-    #    summary = "I am a backend developer about 10 years. My speciality is PHP, but I work with a lot of languages. I worked in different kind of companies, and this gave me much experience."
+        title = "Career Profile"
+        summary = "I am a backend developer about 10 years. My speciality is PHP, but I work with a lot of languages. I worked in different kind of companies, and this gave me much experience."
 
     # Experiences section
     [params.experiences]
-        enable = false
+        enable = true
         icon = "fa-briefcase"
         title = "Experiences"
 
@@ -171,49 +163,90 @@ disable404 = true
         position = "Developer"
         dates = "2017 - Present"
         company = "Easy Taxi, São Paulo - Brazil"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        details = """
+        - Upgrade of MongoDB PHP driver
+        - Upgrade PHP 5.6 to 7.2
+        - Incorporation other companies to Easy
+        - Creation of API to resolve addresses in Golang
+        - Upgrade of `Silex` to `Symfony 4`
+        - Creation of Jenkins configuration to do CI of projects
+        """
 
         [[params.jobs.list]]
         position = "Developer"
         dates = "2016 - 2017"
         company = "Celebryts, São Paulo - Brazil"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = """
+        - Integration with Social Networks
+        - Crawler to get some data from Social Networks and Youtube
+        - Creation of development environment with Docker
+        - Consumption of RabbitMQ queues
+        - Creation of API to send notifications (by Email, SMS, ...)
+        """
 
         [[params.jobs.list]]
         position = "Developer"
         dates = "2016 - 2016"
         company = "Longevo, São Paulo - Brazil"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = """
+        - Migration of legacy code writing in PHP4 to PHP5.6 using Symfony
+        - Creation of development environment with Docker
+        - Implementation of Jenkins to do CI of projects
+        """
 
         [[params.jobs.list]]
         position = "Developer"
         dates = "2013 - 2016"
         company = "Catho, Barueri - Brazil"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = """
+        - Reformulation of Job Search
+        - Reformulation of Job Indexing on Solr
+        - Reformulation of Automated Job Notice
+        - Incorporation of company `Manager` on `Catho` backend
+        - Creation of simple CRUD's with Laravel
+        - Creation of some API's with Phalcon
+        - Creation of Job Suggestion
+        - Creation of new A/B test platform
+        - Creation of framework to do automated tests (Proxy to Selenium)
+        """
 
         [[params.jobs.list]]
         position = "Developer"
         dates = "2012 - 2013"
         company = "Duetec, Barueri - Brazil"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = """
+        - Creation of ERP to a Construction Company
+        - Creation of Android APP to monitoring calls, SMS and location
+        - Creation of Android APP to manage Orders of Services
+        - Maintance of system that read PABX data to manage resources
+        - Configuration and maintance of company servers
+        """
 
         [[params.jobs.list]]
         position = "Developer"
         dates = "2011 - 2012"
         company = "Titan Software, Barueri - Brazil"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = """
+        - Maintance and creation of new features on company ERP
+        """
 
         [[params.jobs.list]]
         position = "Developer"
         dates = "2011 - 2011"
         company = "Waves Info, Osasco - Brazil"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = """
+        - Creation of websites and systems to thyrd companies
+        - Management of hosting
+        """
 
         [[params.jobs.list]]
         position = "Trainee Developer"
         dates = "2010 - 2011"
         company = "Somar Meteorologia, São Paulo - Brazil"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = """
+        - Maintance on company website
+        - Cration of new features on systems
+        """
 
     # Projects section
     [params.projects]
@@ -254,11 +287,11 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
+        skill = "PHP"
+        level = "80%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = ""
         level = "98%"
 
         [[params.skills.list]]
