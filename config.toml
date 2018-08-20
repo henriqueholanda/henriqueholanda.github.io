@@ -126,7 +126,7 @@ disable404 = true
 
         [[params.language.list]]
         language = "English"
-        level = "Intermediate"
+        level = "Fluent"
 
     # Interests section
     [params.interests]
