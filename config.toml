@@ -291,8 +291,8 @@ disable404 = true
         level = "80%"
                 
         [[params.skills.list]]
-        skill = ""
-        level = "98%"
+        skill = "Golang"
+        level = "55%"
 
         [[params.skills.list]]
         skill = "Angular"
