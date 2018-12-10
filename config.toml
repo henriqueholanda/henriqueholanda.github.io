@@ -122,11 +122,9 @@ disable404 = true
 
         [[params.language.list]]
         language = "Portuguese"
-        level = "Native"
 
         [[params.language.list]]
         language = "English"
-        level = "Fluent"
 
     # Interests section
     [params.interests]
@@ -161,7 +159,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Developer"
-        dates = "2017 - Present"
+        dates = "2017 - 2018"
         company = "Easy Taxi, São Paulo - Brazil"
         details = """
         - Upgrade of MongoDB PHP driver
@@ -170,6 +168,8 @@ disable404 = true
         - Creation of API to resolve addresses in Golang
         - Upgrade of `Silex` to `Symfony 4`
         - Creation of Jenkins configuration to do CI of projects
+        - Creation of microservices in Golang
+        - Infrastructure on AWS and Google Cloud
         """
 
         [[params.jobs.list]]
@@ -289,7 +289,7 @@ disable404 = true
         [[params.skills.list]]
         skill = "PHP"
         level = "80%"
-                
+
         [[params.skills.list]]
         skill = "Golang"
         level = "65%"
@@ -316,7 +316,7 @@ disable404 = true
     # Please keep the original attribution link when using for your own project.
     # If you'd like to use the template without the attribution,
     # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    # 
+    #
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
