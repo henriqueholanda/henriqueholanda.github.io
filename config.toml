@@ -40,6 +40,12 @@ disable404 = true
         enable = true
 
         [[params.contact.list]]
+        class = "blog"
+        icon = "fa-newspaper-o"
+        url = "https://henriqueholanda.dev"
+        title = "Personal Blog"
+
+        [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
         url = "mailto: contato@henriqueholanda.com.br"
@@ -156,6 +162,15 @@ disable404 = true
         enable = true
         icon = "fa-briefcase"
         title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2019 - now"
+        company = "Agility Networks, São Paulo - Brazil"
+        details = """
+        - Creation of API's in Golang
+        - Consumption of external API's in Python
+        """
 
         [[params.jobs.list]]
         position = "Developer"
