@@ -155,7 +155,7 @@ disable404 = true
         enable = false
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I am a backend developer about 10 years. My speciality is PHP, but I work with a lot of languages. I worked in different kind of companies, and this gave me much experience."
+        summary = "I have almost 10 years of carrer as developer with a background on PHP. In all of these years i had the opportunity to work with great developers and participated of some communities like PHPSP and GolangSP. I worked in a lot of companies, as little startups, and big companies like Catho and EasyTaxi/Cabify."
 
     # Experiences section
     [params.experiences]
@@ -164,8 +164,29 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Developer"
-        dates = "2019 - now"
+        position = "Senior Software Engineer"
+        dates = "2020 - now"
+        company = "Red Ventures, São Paulo - Brazil"
+        details = """
+        - Creation of API's in Golang
+        - Consumption of external API's
+        """
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer"
+        dates = "2019 - 2020"
+        company = "Cabify, São Paulo - Brazil"
+        details = """
+        - Creation of an API in Golang to check customer trustability
+        - Creation of an API in Golang to check customer criminal records
+        - Consumption of external API's
+        - Worked with a remote team
+        - Organization of Meetups
+        """
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer"
+        dates = "2019 - 2019"
         company = "Agility Networks, São Paulo - Brazil"
         details = """
         - Creation of API's in Golang
