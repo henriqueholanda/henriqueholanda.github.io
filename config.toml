@@ -81,6 +81,18 @@ disable404 = true
         url = "//twitter.com/henriqueholanda"
         title = "@henriqueholanda"
 
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-slideshare"
+        url = "https://www.slideshare.net/HenriqueHolanda4"
+        title = "slideshare.net"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-file-powerpoint-o"
+        url = "https://speakerdeck.com/henriqueholanda"
+        title = "speakerdeck.com"
+
     # Education section
     [params.education]
         enable = true
@@ -170,6 +182,9 @@ disable404 = true
         details = """
         - Creation of API's in Golang
         - Consumption of external API's
+        - Technical interviewer of Backend candidates
+        - Creation of a Podcast
+        - Creation of initiatives to improve team skills
         """
 
         [[params.jobs.list]]
