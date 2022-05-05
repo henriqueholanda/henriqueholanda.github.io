@@ -167,7 +167,7 @@ disable404 = true
         enable = false
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I have almost 10 years of carrer as developer with a background on PHP. In all of these years i had the opportunity to work with great developers and participated of some communities like PHPSP and GolangSP. I worked in a lot of companies, as little startups, and big companies like Catho and EasyTaxi/Cabify."
+        summary = "I have almost 10 years of carrer as developer with a background on PHP and Golang. In all of these years i had the opportunity to work with great developers and participated of some communities like PHPSP and GolangSP. I worked in a lot of companies, as little startups, and big companies like Catho and EasyTaxi/Cabify."
 
     # Experiences section
     [params.experiences]
@@ -177,8 +177,28 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
-        dates = "2020 - now"
-        company = "Red Ventures, São Paulo - Brazil"
+        dates = "2021 - now"
+        company = "Fretebras, Remote - Brazil"
+        details = """
+        - Creation of Golang API that group data from some providers (like MySQL, MongoDB, Redis) and order
+        - Consumption of external API's
+        - Create some experiments to validate product features
+        """
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer"
+        dates = "2021 - 2121"
+        company = "RD Station, Remote - Brazil"
+        details = """
+        - Creation of Golang service to manage currency variations
+        - Refactor of all systems to be available in another countries (localization/internationalization)
+        - Integration with an external service that translate all systems texts.
+        """
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer"
+        dates = "2020 - 2121"
+        company = "Red Ventures, São Paulo/Remote - Brazil"
         details = """
         - Creation of API's in Golang
         - Consumption of external API's
@@ -209,7 +229,7 @@ disable404 = true
         """
 
         [[params.jobs.list]]
-        position = "Developer"
+        position = "Backend Developer"
         dates = "2017 - 2018"
         company = "Easy Taxi, São Paulo - Brazil"
         details = """
@@ -224,7 +244,7 @@ disable404 = true
         """
 
         [[params.jobs.list]]
-        position = "Developer"
+        position = "Backend Developer"
         dates = "2016 - 2017"
         company = "Celebryts, São Paulo - Brazil"
         details = """
@@ -236,7 +256,7 @@ disable404 = true
         """
 
         [[params.jobs.list]]
-        position = "Developer"
+        position = "Backend Developer"
         dates = "2016 - 2016"
         company = "Longevo, São Paulo - Brazil"
         details = """
@@ -246,7 +266,7 @@ disable404 = true
         """
 
         [[params.jobs.list]]
-        position = "Developer"
+        position = "Backend Developer"
         dates = "2013 - 2016"
         company = "Catho, Barueri - Brazil"
         details = """
@@ -262,7 +282,7 @@ disable404 = true
         """
 
         [[params.jobs.list]]
-        position = "Developer"
+        position = "Software Developer"
         dates = "2012 - 2013"
         company = "Duetec, Barueri - Brazil"
         details = """
@@ -274,7 +294,7 @@ disable404 = true
         """
 
         [[params.jobs.list]]
-        position = "Developer"
+        position = "Software Developer"
         dates = "2011 - 2012"
         company = "Titan Software, Barueri - Brazil"
         details = """
@@ -282,7 +302,7 @@ disable404 = true
         """
 
         [[params.jobs.list]]
-        position = "Developer"
+        position = "Software Developer"
         dates = "2011 - 2011"
         company = "Waves Info, Osasco - Brazil"
         details = """
