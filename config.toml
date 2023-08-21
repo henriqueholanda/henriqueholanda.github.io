@@ -167,13 +167,24 @@ disable404 = true
         enable = false
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I have almost 10 years of carrer as developer with a background on PHP and Golang. In all of these years i had the opportunity to work with great developers and participated of some communities like PHPSP and GolangSP. I worked in a lot of companies, as little startups, and big companies like Catho and EasyTaxi/Cabify."
+        summary = "I have more than 10 years of carrer as developer with a background on PHP and Golang. In all of these years i had the opportunity to work with great developers and participated of some communities like PHPSP and GolangSP. I worked in a lot of companies, as little startups, and big companies like Catho and EasyTaxi/Cabify."
 
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
         title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Tech Lead"
+        dates = "2022 - now"
+        company = "Fretebras, Remote - Brazil"
+        details = """
+        - Definition of architecture and technologies to be used on the projects
+        - Responsible for the team's delivery
+        - Responsible for the team's technical growth
+        - Realization of 1:1 meetings with the team
+        """
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
